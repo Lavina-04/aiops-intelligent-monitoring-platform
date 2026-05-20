@@ -1,86 +1,95 @@
-from logs.logger import write_log
+from prometheus_client import Counter, Histogram
+from functools import wraps
 import time
+
+# ----------------------------
+# PROMETHEUS METRICS
+# ----------------------------
+
+REQUEST_COUNT = Counter(
+    "app_requests_total",
+    "Total App Requests"
+)
+
+ERROR_COUNT = Counter(
+    "app_errors_total",
+    "Total App Errors"
+)
+
+REQUEST_LATENCY = Histogram(
+    "app_request_latency_seconds",
+    "Request Latency"
+)
+
+# ----------------------------
+# LOCAL METRICS STORAGE
+# ----------------------------
 
 request_count = 0
 error_count = 0
-
 response_times = []
 
-start_time = time.time()
+
+# ----------------------------
+# REQUEST TRACKER
+# ----------------------------
 
 def track_request(func):
 
+    @wraps(func)
     def wrapper(*args, **kwargs):
 
         global request_count
         global error_count
 
-        request_count += 1
-        write_log(
-          "REQUEST",
-          "Incoming API request received"
-        )
-
         start = time.time()
+
+        request_count += 1
+        REQUEST_COUNT.inc()
 
         response = func(*args, **kwargs)
 
-        end = time.time()
-
-        latency = round((end - start) * 1000, 2)
+        latency = (time.time() - start) * 1000
 
         response_times.append(latency)
-        
-        write_log(
-        "METRIC",
-        f"Request latency recorded: {latency} ms"
-         )
 
-        status_code = 200
+        REQUEST_LATENCY.observe(latency / 1000)
 
         if isinstance(response, tuple):
+
             status_code = response[1]
 
-        if status_code >= 500:
-            error_count += 1
-            write_log(
-                 "ERROR",
-                 f"Server returned status code {status_code}",
-                 "CRITICAL"
-            )
-
-        print(f"""
-        Requests : {request_count}
-        Errors   : {error_count}
-        Latency  : {latency} ms
-        """)
+            if status_code >= 400:
+                error_count += 1
+                ERROR_COUNT.inc()
 
         return response
 
-    wrapper.__name__ = func.__name__
-
     return wrapper
+
+
+# ----------------------------
+# DASHBOARD METRICS
+# ----------------------------
 
 def get_metrics():
 
     avg_latency = 0
 
     if response_times:
-        avg_latency = round(sum(response_times) / len(response_times), 2)
+        avg_latency = sum(response_times) / len(response_times)
 
-    uptime_seconds = int(time.time() - start_time)
-
-    uptime_percentage = 100
+    uptime = 100
 
     if request_count > 0:
-        uptime_percentage = round(
-            ((request_count - error_count) / request_count) * 100,
-            2
-        )
+        uptime = (
+            (request_count - error_count)
+            / request_count
+        ) * 100
 
     return {
         "requests": request_count,
         "errors": error_count,
-        "avg_latency": avg_latency,
-        "uptime": uptime_percentage,
+        "avg_latency": round(avg_latency, 2),
+        "uptime": round(uptime, 2)
     }

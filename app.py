@@ -1,3 +1,4 @@
+from prometheus_client import generate_latest
 from flask import Flask, render_template
 from ai_assistant.rag_engine import analyze_logs
 
@@ -64,6 +65,12 @@ def incidents():
         log_summary=log_summary
     )
 
+@app.route("/metrics")
+def metrics_endpoint():
+
+    return generate_latest(), 200, {
+        "Content-Type": "text/plain"
+    }
 
 # -----------------------------
 # API ROUTE
@@ -85,8 +92,8 @@ def api_incidents():
 # MAIN
 # -----------------------------
 if __name__ == "__main__":
-    app.run(
-        host="0.0.0.0",
-        port=5000,
-        debug=True
-    )
+   app.run(
+    host="0.0.0.0",
+    port=5000,
+    debug=False
+)
