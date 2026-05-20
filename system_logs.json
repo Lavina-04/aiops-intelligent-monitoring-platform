@@ -1,0 +1,650 @@
+[
+    {
+        "timestamp": "2026-05-15 15:25:05",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:06",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:07",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:07",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1913.17 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:07",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:07",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1341.62 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:08",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:08",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1457.03 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:08",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:09",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1653.59 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:25:10",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 2019.24 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:01",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:02",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:02",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1356.04 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:02",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:04",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1856.59 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:04",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:04",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:05",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:06",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1846.74 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:07",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1897.76 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:07",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:07",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:09",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1796.65 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:33:09",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:28",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:29",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:29",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:30",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1880.53 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:30",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:30",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1584.82 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:31",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1338.95 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:31",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1365.54 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:44:31",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:18",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:20",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1853.64 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:20",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:20",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:22",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1783.44 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:22",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:24",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1436.51 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:25",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:26",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:27",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:27",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1662.67 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:28",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1860.21 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:28",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:28",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1559.69 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:31",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:48:33",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1856.33 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:43",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:44",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:45",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1539.19 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:45",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:45",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:46",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:46",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1948.48 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:46",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:47",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1520.92 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:47",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:48",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1982.83 ms"
+    },
+    {
+        "timestamp": "2026-05-15 15:55:48",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1555.33 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:24",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:26",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1624.85 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:26",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:29",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:30",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:31",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1695.16 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:31",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 22:17:31",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1826.12 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:15",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:16",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:17",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:17",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1940.01 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:18",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:18",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1994.9 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:18",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:19",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1932.56 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:19",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:20",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1893.09 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:20",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:20",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1641.95 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:20",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:21",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1939.95 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:21",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:22",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1885.06 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:51",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:52",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:52",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1510.33 ms"
+    },
+    {
+        "timestamp": "2026-05-15 22:19:54",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1976.71 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:18",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:20",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1542.31 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:20",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:37",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:39",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1902.0 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:41",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:41",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:42",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1285.21 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:43",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1305.38 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:38:43",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:13",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:14",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:14",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1367.21 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:14",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:15",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1661.02 ms"
+    },
+    {
+        "timestamp": "2026-05-16 17:53:15",
+        "type": "ERROR",
+        "severity": "CRITICAL",
+        "message": "Server returned status code 500"
+    },
+    {
+        "timestamp": "2026-05-16 17:59:14",
+        "type": "REQUEST",
+        "severity": "INFO",
+        "message": "Incoming API request received"
+    },
+    {
+        "timestamp": "2026-05-16 17:59:16",
+        "type": "METRIC",
+        "severity": "INFO",
+        "message": "Request latency recorded: 1913.92 ms"
+    }
+]

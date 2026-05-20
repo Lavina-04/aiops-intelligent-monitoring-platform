@@ -1,0 +1,10 @@
+High latency incidents are commonly caused by backend congestion,
+slow database queries, blocking API calls, overloaded worker threads,
+or insufficient scaling resources.
+
+Recommended remediation:
+- Scale service replicas
+- Optimize request processing
+- Reduce blocking operations
+- Improve database indexing
+- Introduce caching
