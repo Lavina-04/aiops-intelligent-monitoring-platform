@@ -156,29 +156,3 @@ http://localhost:3000
 Lavina Solanki
 
 Developed as an AIOps project focusing on intelligent IT operations monitoring, incident analysis, and operational intelligence.
-
-# Screenshots
-
-## AIOps Dashboard
-
-![AIOps Dashboard](screenshots/dashboard.png)
-
-## AI Analysis Module
-
-![AI Analysis](screenshots/ai-analysis.png)
-
-## Incident Management
-
-![Incidents](screenshots/incidents.png)
-
-## Grafana Dashboard
-
-![Grafana](screenshots/grafana-dashboard.png)
-
-## Prometheus Targets
-
-![Prometheus](screenshots/prometheus-targets.png)
-
-## Docker Containers
-
-![Docker](screenshots/docker-containers.png)
